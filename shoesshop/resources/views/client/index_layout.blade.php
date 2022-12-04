@@ -106,7 +106,7 @@
 
             <script>
             var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute("page_id", "112827268293688");
+            chatbox.setAttribute("page_id", "");
             chatbox.setAttribute("attribution", "biz_inbox");
             </script>
 
@@ -123,7 +123,7 @@
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) return;
                 js = d.createElement(s); js.id = id;
-                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                js.src = '';
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
             </script>
